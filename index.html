@@ -5,37 +5,77 @@
         @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
         body {
             background: linear-gradient(143deg,rgba(87, 199, 133, 1) 0%, rgba(155, 237, 83, 1) 100%);
+              background-attachment: fixed;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             height: 100vh;
+            gap: 16px;
         }
         .glass {
-            /* From https://css.glass <-- love that generator! */
+            /* From https://css.glass <-- love that generator :3 */
             background: rgba(255, 255, 255, 0.06);
             border-radius: 16px;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             backdrop-filter: blur(2.5px);
             -webkit-backdrop-filter: blur(2.5px);
             border: 1px solid rgba(255, 255, 255, 0.16);
+            width: 90vw;
         }
         h1 {
             font-family: "IM Fell English", serif;
             font-weight: 700;
             font-style: normal;
             font-size: 64pt;
+            margin: 8px;
+        }
+        h2 {
+            font-family: "IM Fell English", serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 32pt;
+            margin: 8px;
         }
         p {
             font-family: "IM Fell English", serif;
             font-weight: 200;
             font-style: normal;
-            font-size: 30pt;
+            font-size: 16pt;
+            margin: 8px;
+        }
+        .footer {
+            font-size: 8pt;
         }
     </style>
 </head>
 <body>
     <div class="glass">
-        <h1>Lady Justice</h1>
-        <p>I am the one and only,<br>real Lady Justice.</p>
+        <center><h1>Lady Justice</h1></center>
+        <center><p>I am the one and only real Lady Justice.</p></center>
     </div>
+    <br>
+    <div class="glass">
+        <p>Hello!<br>I am Lady Justice, you can just call me Justice tho :3</p>
+    </div>
+    <br>
+    <div class="glass">
+        <h2>My hobbies</h2>
+        <p>I like:</p>
+        <ul>
+            <li><p>Sonic the Hedgehog<br>Sonic Adventure DX is my fav game, 2nd place is Soinc 3 (Alone, not "& Knuckles")<br>and 3rd place is... idk, let it be Sonic Generations :3</p></li>
+            <li><p>Doki Doki Literature Club<br>(Sayori's story is relatable but that's probably bad TwT)</p></li>
+            <li><p>Playing drums -- Lars Ulrich is the person who got me behind the kit!<br>Speaking of Lars...</p></li>
+            <li><p>METALLICA!!! I like Metallica so much!<br>My fav album is "...And Justice For All" (although you could've<br> guessed by my pfp alr :3), my fav song is Blackened.</p></li>
+            <li><p>And programming of course! <a href="https://www.github.com/ProximalElk6186">Visit my GitHub profile!</a></p></li>
+        </ul>
+    </div>
+    <br>
+    <div class="glass">
+        <h2>Contact</h2>
+        <p>If you ever need to contact me, feel free to DM me on Discord! My username is proximalelk6186 :3</p>
+        <br>
+        <p>My DMs are open, please DM me if you need help with something I can help you with, or just to say hiiii :3</p>
+    </div>
+    <br>
+    <p class="footer">btw did you know that this site <a href="https://github.com/TrueLadyJustice/TrueLadyJustice.github.io">is open-source?</a></p>
 </body>
